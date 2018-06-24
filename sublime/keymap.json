@@ -1,0 +1,13 @@
+[
+  { "keys": ["super+shift+r"], "command": "reveal_in_side_bar" },
+  { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
+  { "keys": ["ctrl+shift+g"], "command": "grep_file" },
+  { "keys": ["ctrl+w"], "command": "NULL" },
+  { "keys": ["shift+ctrl+w"], "command": "NULL" },
+  { "keys": ["cmd+w"], "command": "close_file" },
+  { "keys": ["shift+cmd+w"], "command": "NULL" },
+  { "keys": ["f9"], "command": "reindent"},
+  { "keys": ["alt+down"], "command": "paste_from_history" },
+  { "keys": ["command+'"], "command": "change_quotes" },
+  { "keys": ["super+shift+d"], "command": "duplicate_line" },
+]

@@ -1,0 +1,43 @@
+[user]
+  name = Dmytro Vasin
+  email = dmytro.vasin@gmail.com
+[alias]
+  co = checkout
+  s = status -sb
+  lg = log --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -7
+  b = branch
+  today = log --since=midnight --author='Dmytro Vasin' --oneline
+[core]
+  editor = subl -n -w
+  autocrlf = input
+  excludesfile = /Users/dv/.gitignore
+  ignorecase = false
+[merge]
+  tool = --help
+[color]
+  ui = always
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[push]
+  default = current
+[pull]
+  default = current
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true

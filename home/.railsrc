@@ -1,0 +1,6 @@
+--database=postgresql
+--skip-action-cable
+--skip-spring
+--skip-turbolinks
+--no-ri
+--no-rdoc
